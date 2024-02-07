@@ -19,6 +19,20 @@ struct Pokemon: Codable, Equatable {
     let url: String
     
     static var samplePokemon = Pokemon(name: "bulbasaur", url: "https://pokeapi.co/api/v2/pokemon/1/")
+    
+    static func loadPokemon() -> [Pokemon] {
+        let fileName = "pokemon.json"
+        guard let url = Bundle.main.url(forResource: fileName, withExtension: nil) else { return [] }
+        do {
+            let data = try Data(contentsOf: url)
+            let jsonDecoder = JSONDecoder()
+            let pokemonPage = try jsonDecoder.decode(PokemonPage.self, from: data)
+            return pokemonPage.results
+        } catch {
+            print(error)
+        }
+        return [Pokemon.samplePokemon]
+    }
 }
 
 struct PokemonDetail: Codable {
