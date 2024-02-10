@@ -10,4 +10,9 @@ import Foundation
 struct GameIndicy: Codable {
     let gameIndex: Int
     let version: GameVersion
+    
+    enum CodingKeys: String, CodingKey {
+        case gameIndex = "game_index"
+        case version
+    }
 }

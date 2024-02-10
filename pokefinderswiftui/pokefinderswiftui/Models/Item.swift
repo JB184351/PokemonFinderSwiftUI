@@ -11,4 +11,10 @@ struct Item: Codable {
     let attributes: [Attribute]
     let babyTriggerFor: String?
     let category: Category
+    
+    enum CodingKeys: String, CodingKey {
+        case attributes
+        case babyTriggerFor = "baby_trigger_for"
+        case category
+    }
 }

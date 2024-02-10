@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30052EAD2B7440D20012FA78 /* Species.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30052EAC2B7440D20012FA78 /* Species.swift */; };
+		30052EAF2B7443EC0012FA78 /* Sprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30052EAE2B7443EC0012FA78 /* Sprite.swift */; };
+		30052EB12B76FA700012FA78 /* Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30052EB02B76FA700012FA78 /* Stats.swift */; };
+		30052EB32B76FD410012FA78 /* Cries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30052EB22B76FD410012FA78 /* Cries.swift */; };
 		3095F0AE2B65BB7200405278 /* pokefinderswiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3095F0AD2B65BB7200405278 /* pokefinderswiftuiApp.swift */; };
 		3095F0B02B65BB7200405278 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3095F0AF2B65BB7200405278 /* ContentView.swift */; };
 		3095F0B22B65BB7400405278 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3095F0B12B65BB7400405278 /* Assets.xcassets */; };
@@ -33,6 +37,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		30052EAC2B7440D20012FA78 /* Species.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Species.swift; sourceTree = "<group>"; };
+		30052EAE2B7443EC0012FA78 /* Sprite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sprite.swift; sourceTree = "<group>"; };
+		30052EB02B76FA700012FA78 /* Stats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stats.swift; sourceTree = "<group>"; };
+		30052EB22B76FD410012FA78 /* Cries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cries.swift; sourceTree = "<group>"; };
 		3095F0AA2B65BB7200405278 /* pokefinderswiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pokefinderswiftui.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3095F0AD2B65BB7200405278 /* pokefinderswiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pokefinderswiftuiApp.swift; sourceTree = "<group>"; };
 		3095F0AF2B65BB7200405278 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -124,8 +132,12 @@
 			isa = PBXGroup;
 			children = (
 				30FC73FF2B685F2F00C8CA05 /* PokemonModel.swift */,
+				30052EB22B76FD410012FA78 /* Cries.swift */,
+				30052EAE2B7443EC0012FA78 /* Sprite.swift */,
+				30052EAC2B7440D20012FA78 /* Species.swift */,
 				30FC74172B69C60300C8CA05 /* PokemonType.swift */,
 				30FC74192B69C78B00C8CA05 /* Stat.swift */,
+				30052EB02B76FA700012FA78 /* Stats.swift */,
 				30FC740F2B69C43500C8CA05 /* HeldItem.swift */,
 				30FC74112B69C47300C8CA05 /* Item.swift */,
 				30FC74132B69C49900C8CA05 /* Attribute.swift */,
@@ -222,6 +234,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3095F0BF2B65BD8900405278 /* Ability.swift in Sources */,
+				30052EAD2B7440D20012FA78 /* Species.swift in Sources */,
+				30052EAF2B7443EC0012FA78 /* Sprite.swift in Sources */,
 				30FC741F2B6B0D8D00C8CA05 /* PokemonManager.swift in Sources */,
 				30FC740E2B69C1A700C8CA05 /* VersionGroup.swift in Sources */,
 				30FC74062B6866BA00C8CA05 /* Move.swift in Sources */,
@@ -232,12 +246,14 @@
 				3095F0B02B65BB7200405278 /* ContentView.swift in Sources */,
 				3095F0AE2B65BB7200405278 /* pokefinderswiftuiApp.swift in Sources */,
 				30FC73FD2B685CC800C8CA05 /* Helpers.swift in Sources */,
+				30052EB12B76FA700012FA78 /* Stats.swift in Sources */,
 				30FC741D2B6B0D6C00C8CA05 /* ViewModel.swift in Sources */,
 				30FC74042B68666400C8CA05 /* GameIndicy.swift in Sources */,
 				30FC74122B69C47300C8CA05 /* Item.swift in Sources */,
 				30FC74162B69C4D700C8CA05 /* Category.swift in Sources */,
 				30FC740C2B69C18F00C8CA05 /* MovesLearnedMethod.swift in Sources */,
 				30FC74102B69C43500C8CA05 /* HeldItem.swift in Sources */,
+				30052EB32B76FD410012FA78 /* Cries.swift in Sources */,
 				30FC74022B68664100C8CA05 /* Form.swift in Sources */,
 				30FC74142B69C49900C8CA05 /* Attribute.swift in Sources */,
 				30FC74182B69C60300C8CA05 /* PokemonType.swift in Sources */,

@@ -38,6 +38,7 @@ struct Pokemon: Codable, Equatable {
 struct PokemonDetail: Codable {
     let abilities: [Ability]
     let baseExperience: Int
+    let cries: Cries?
     let forms: [Form]
     let gameIndicies: [GameIndicy]
     let height: Float
@@ -49,10 +50,10 @@ struct PokemonDetail: Codable {
     let name: String
     let order: Int
     let pastAbilities: [Ability]
-            let pastTypes: [PokemonType]
-//            let species: [Species]
-    //        let sprites: [Sprite]
-    //        let stats: Stats
-    //        let types: [PokemonTypes]
+    let pastTypes: [PokemonType]
+    let species: [Species]
+    let sprites: [Sprite]
+    let stats: [Stats]
+    let types: [PokemonType]
     let weight: Float
 }
