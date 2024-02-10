@@ -22,7 +22,7 @@
 		30FC74022B68664100C8CA05 /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FC74012B68664100C8CA05 /* Form.swift */; };
 		30FC74042B68666400C8CA05 /* GameIndicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FC74032B68666400C8CA05 /* GameIndicy.swift */; };
 		30FC74062B6866BA00C8CA05 /* Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FC74052B6866BA00C8CA05 /* Move.swift */; };
-		30FC74082B69C15D00C8CA05 /* GameVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FC74072B69C15D00C8CA05 /* GameVersion.swift */; };
+		30FC74082B69C15D00C8CA05 /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FC74072B69C15D00C8CA05 /* Version.swift */; };
 		30FC740A2B69C17900C8CA05 /* VersionGroupDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FC74092B69C17900C8CA05 /* VersionGroupDetail.swift */; };
 		30FC740C2B69C18F00C8CA05 /* MovesLearnedMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FC740B2B69C18F00C8CA05 /* MovesLearnedMethod.swift */; };
 		30FC740E2B69C1A700C8CA05 /* VersionGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FC740D2B69C1A700C8CA05 /* VersionGroup.swift */; };
@@ -54,7 +54,7 @@
 		30FC74012B68664100C8CA05 /* Form.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form.swift; sourceTree = "<group>"; };
 		30FC74032B68666400C8CA05 /* GameIndicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameIndicy.swift; sourceTree = "<group>"; };
 		30FC74052B6866BA00C8CA05 /* Move.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Move.swift; sourceTree = "<group>"; };
-		30FC74072B69C15D00C8CA05 /* GameVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameVersion.swift; sourceTree = "<group>"; };
+		30FC74072B69C15D00C8CA05 /* Version.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Version.swift; sourceTree = "<group>"; };
 		30FC74092B69C17900C8CA05 /* VersionGroupDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionGroupDetail.swift; sourceTree = "<group>"; };
 		30FC740B2B69C18F00C8CA05 /* MovesLearnedMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovesLearnedMethod.swift; sourceTree = "<group>"; };
 		30FC740D2B69C1A700C8CA05 /* VersionGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionGroup.swift; sourceTree = "<group>"; };
@@ -143,7 +143,7 @@
 				30FC74132B69C49900C8CA05 /* Attribute.swift */,
 				30FC74012B68664100C8CA05 /* Form.swift */,
 				30FC74032B68666400C8CA05 /* GameIndicy.swift */,
-				30FC74072B69C15D00C8CA05 /* GameVersion.swift */,
+				30FC74072B69C15D00C8CA05 /* Version.swift */,
 				30FC74052B6866BA00C8CA05 /* Move.swift */,
 				30FC740D2B69C1A700C8CA05 /* VersionGroup.swift */,
 				30FC74152B69C4D700C8CA05 /* Category.swift */,
@@ -239,7 +239,7 @@
 				30FC741F2B6B0D8D00C8CA05 /* PokemonManager.swift in Sources */,
 				30FC740E2B69C1A700C8CA05 /* VersionGroup.swift in Sources */,
 				30FC74062B6866BA00C8CA05 /* Move.swift in Sources */,
-				30FC74082B69C15D00C8CA05 /* GameVersion.swift in Sources */,
+				30FC74082B69C15D00C8CA05 /* Version.swift in Sources */,
 				30FC74002B685F2F00C8CA05 /* PokemonModel.swift in Sources */,
 				30FC741A2B69C78B00C8CA05 /* Stat.swift in Sources */,
 				30FC740A2B69C17900C8CA05 /* VersionGroupDetail.swift in Sources */,

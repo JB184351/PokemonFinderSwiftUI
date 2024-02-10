@@ -56,4 +56,27 @@ struct PokemonDetail: Codable {
     let stats: [Stats]
     let types: [PokemonType]
     let weight: Float
+    
+    enum CodingKeys: String, CodingKey {
+        case abilities
+        case baseExperience = "base_experience"
+        case cries
+        case forms
+        case gameIndicies = "game_indicies"
+        case height
+        case heldItems = "held_items"
+        case id
+        case isDefault = "is_default"
+        case locationAreaEncounters = "location_area_encounters"
+        case moves
+        case name
+        case order
+        case pastAbilities = "past_abilities"
+        case pastTypes = "past_types"
+        case species
+        case sprites
+        case stats
+        case types
+        case weight
+    }
 }

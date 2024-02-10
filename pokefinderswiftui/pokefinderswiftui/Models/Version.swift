@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct GameVersion: Codable {
+struct Version: Codable {
     let name: String
     let urL: String
 }
